@@ -231,12 +231,11 @@ section#Spotlight section.right div.two_botton div.orange {
 section#Spotlight section.right div.two_botton div.orange a.button {
   display: inline-block;
   color: #fff;
-  background: #FE8E0B;
+  background: #fe8e0b;
   padding: 18px 80px 18px 18px;
   border-radius: 0px 20px 192px 0px / 0px 20px 150px 0px;
   font-size: 18px;
   font-weight: 600;
- 
 }
 
 section#Spotlight section.right div.two_botton div.black {
@@ -277,44 +276,42 @@ section#brands ul li a img {
 }
 
 section#about {
-  padding: 100px 0px;
+  padding: 110px 0px;
 }
 
 section#about {
-  display: flex;
-  align-items: center;
 }
 section#about section.background {
-  background: url(./images/about-section.png) no-repeat, #dedddc;
-  border-radius: 10px;
-  width: 82%;
-  display: block;
-  height: 80vh;
-  margin: 0 auto;
-  background-size: 76%;
-  background-position-x: 715px;
-  background-position-y: -514px;
-  display: block;
+  background: #dedddc;
+  border-radius: 20px;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-section#about section.background section.container {
-  padding: 180px 80px;
+section#about section.background div.left_container {
+  padding: 20px 0px 20px 70px;
+  width: 67%;
 }
 
-section#about section.container h2 {
-  font-size: 70px;
+section#about div.left_container h2 {
+  font-size: 60px;
   font-weight: 600;
   margin-bottom: 20px;
 }
 
-section#about section.container p {
-  font-size: 22px;
+section#about div.left_container p {
+  font-size: 20px;
   font-weight: 500;
-  margin-bottom: 20px;
-  width: 58%;
   margin-bottom: 18px;
 }
+section#about div.left_container white {
+  background-color: #fe8c0a;
+  width: 10%;
+  height: 100px;
+}
 
-section#about section.container a.button {
+section#about div.left_container a.button {
   display: inline-block;
   color: #fff;
   background: #3a2929;
@@ -322,5 +319,133 @@ section#about section.container a.button {
   border-radius: 20px 20px 192px 20px / 20px 20px 150px 20px;
   font-size: 18px;
   font-weight: 600;
-  margin-top: 30px;
+  margin-top: 25px;
+}
+section#about div.right_container {
+  width: 44%;
+}
+
+section#about div.right_container div.img {
+}
+
+section#about div.right_container div.img img {
+  display: block;
+  width: 100%;
+  border-radius: 30px;
+}
+
+section#Content {
+}
+
+section#Content section.wrapper {
+}
+
+section#Content section.wrapper section.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section#Content section.wrapper section.item section.left {
+}
+
+section#Content section.wrapper section.item section.left div.img_bg {
+}
+
+section#Content section.wrapper section.item section.left div.img_bg img {
+  display: block;
+  width: 100%;
+}
+
+section#Content section.wrapper section.item section.left div.img_bottle {
+}
+
+section#Content section.wrapper section.item section.left div.img_bottle img {
+  display: block;
+  width: 100%;
+}
+
+section#Content section.wrapper section.item section.right {
+  width: 45%;
+}
+
+section#Content section.wrapper section.item section.right div.img_dot {
+}
+
+section#Content section.wrapper section.item section.right div.img_dot img {
+  width: 100%;
+  display: block;
+}
+
+section#Content section.wrapper section.item section.right h1 {
+}
+
+section#Content section.wrapper section.item section.right h1 br {
+}
+
+section#Content section.wrapper section.item section.right p {
+}
+
+section#Content section.wrapper section.item section.right a.button {
+}
+
+section#blog {
+  padding: 100px 0px;
+}
+
+section#blog section.wrapper {
+}
+
+section#blog section.wrapper h1 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+section#blog section.wrapper ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+section#blog section.wrapper ul li {
+  margin-left: 50px;
+  width: 32%;
+}
+section#blog section.wrapper ul li:first-child {
+  margin-left: 0px;
+}
+section#blog section.wrapper ul li div.img_blog0 {
+  display: block;
+  width: 100%;
+}
+
+section#blog section.wrapper ul li div.img_blog0 img {
+  display: block;
+  width: 100%;
+  border-radius: 15px;
+}
+section#blog section.wrapper ul li div.img_blog {
+}
+
+section#blog section.wrapper ul li div.img_blog img {
+  display: block;
+  width: 100%;
+  border-radius: 15px;
+}
+
+section#blog section.wrapper ul li h5 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+section#blog section.wrapper ul li p {
+  font-size: 21px;
+  font-weight: 500;
+ 
+  
 }
