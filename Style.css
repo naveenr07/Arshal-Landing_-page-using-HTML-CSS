@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+del {
+  text-decoration: line-through;
+}
+body {
+  font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #010100;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-weight: 400;
+}
+input,
+textarea,
+select {
+  font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: #010100;
+}
+.thumb {
+  display: block;
+}
+.thumb img {
+  display: block;
+  width: 100%;
+}
+p {
+  line-height: 1.6em;
+  font-size: 16px;
+  font-family: "GT-Eesti", Arial;
+  font-weight: 400;
+}
+.hidden {
+  display: none;
+}
+br.clear {
+  clear: both;
+  line-height: 0;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.dup {
+  width: 95%;
+  margin: 0 auto;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter-Regular.woff") format("woff2"),
+    url("./fonts/Inter-Regular.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter-Bold.woff") format("woff2"),
+    url("./fonts/Inter-Bold.woff2") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+header { 
+
+}
+
+header section.container { 
+
+}
+
+header section.container nav.left { 
+
+}
+
+header section.container nav.left h1 { 
+
+}
+
+header section.container nav.left h1 a { 
+
+}
+
+header section.container nav.left h1 a img { 
+
+}
+
+header section.container nav.middle { 
+
+}
+
+header section.container nav.middle ul { 
+
+}
+
+header section.container nav.middle ul li { 
+
+}
+
+header section.container nav.middle ul li a { 
+
+}
+
+header section.container nav.right { 
+
+}
+
+header section.container nav.right ul { 
+
+}
+
+header section.container nav.right ul li { 
+
+}
+
+header section.container nav.right ul li a { 
+
+}
+
+header section.container nav.right ul li a span { 
+
+}
+
+header section.container nav.right ul li a span img { 
+
+}
