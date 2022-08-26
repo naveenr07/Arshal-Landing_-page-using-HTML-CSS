@@ -21,7 +21,7 @@ del {
 body {
   font-family: "Inter";
   font-size: 17px;
-  color: #010100;
+  color: #3a2929;
   overflow-x: hidden;
   min-width: 320px;
   font-weight: 400;
@@ -34,7 +34,7 @@ select {
 }
 
 a {
-  color: #010100;
+  color: #3a2929;
 }
 .thumb {
   display: block;
@@ -59,7 +59,7 @@ br.clear {
 .wrapper {
   width: 90%;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1440px;
 }
 .dup {
   width: 95%;
@@ -126,7 +126,7 @@ header section.container nav.middle ul {
 header section.container nav.middle ul li {
   margin-left: 55px;
 }
-header section.container nav.middle ul li:first-child{
+header section.container nav.middle ul li:first-child {
   margin-left: 0px;
 }
 
@@ -172,4 +172,155 @@ header section.container nav.right ul li a span.cart {
 header section.container nav.right ul li a span.cart img {
   width: 100%;
   display: block;
+}
+section#Spotlight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section#Spotlight section.left {
+  width: 45%;
+}
+
+section#Spotlight section.left div.img_container {
+}
+
+section#Spotlight section.left div.img_container img {
+  display: block;
+  width: 100%;
+}
+
+section#Spotlight section.right {
+  width: 45%;
+  margin-right: 80px;
+}
+
+section#Spotlight section.right h5 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+
+section#Spotlight section.right h1 {
+  font-size: 138px;
+  font-weight: 600;
+  line-height: 1.05em;
+  margin-bottom: 25px;
+}
+
+section#Spotlight section.right h1 br {
+}
+
+section#Spotlight section.right p {
+  font-size: 20px;
+  font-weight: 500;
+  width: 85%;
+  margin-bottom: 30px;
+}
+section#Spotlight section.right div.two_botton {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+section#Spotlight section.right div.two_botton div.orange {
+  margin-right: 15px;
+}
+
+section#Spotlight section.right div.two_botton div.orange a.button {
+  display: inline-block;
+  color: #fff;
+  background: #FE8E0B;
+  padding: 18px 80px 18px 18px;
+  border-radius: 0px 20px 192px 0px / 0px 20px 150px 0px;
+  font-size: 18px;
+  font-weight: 600;
+ 
+}
+
+section#Spotlight section.right div.two_botton div.black {
+}
+
+section#Spotlight section.right div.two_botton div.black a.button {
+  display: inline-block;
+  color: #fff;
+  border-radius: 180px 0px 0px 10px / 150px 0px 0px 10px;
+  background: #3a2929;
+  padding: 18px 18px 18px 50px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+section#brands {
+  padding: 40px 170px 40px 330px;
+
+  background: #f7f4f1;
+}
+
+section#brands ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section#brands ul li {
+}
+
+section#brands ul li a {
+  display: inline-block;
+}
+
+section#brands ul li a img {
+  display: block;
+  width: 100%;
+}
+
+section#about {
+  padding: 100px 0px;
+}
+
+section#about {
+  display: flex;
+  align-items: center;
+}
+section#about section.background {
+  background: url(./images/about-section.png) no-repeat, #dedddc;
+  border-radius: 10px;
+  width: 82%;
+  display: block;
+  height: 80vh;
+  margin: 0 auto;
+  background-size: 76%;
+  background-position-x: 715px;
+  background-position-y: -514px;
+  display: block;
+}
+section#about section.background section.container {
+  padding: 180px 80px;
+}
+
+section#about section.container h2 {
+  font-size: 70px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+section#about section.container p {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  width: 58%;
+  margin-bottom: 18px;
+}
+
+section#about section.container a.button {
+  display: inline-block;
+  color: #fff;
+  background: #3a2929;
+  padding: 18px 47px 18px 20px;
+  border-radius: 20px 20px 192px 20px / 20px 20px 150px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 30px;
 }
