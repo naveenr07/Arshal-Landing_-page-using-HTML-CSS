@@ -284,7 +284,7 @@ section#about {
 section#about section.background {
   background: #dedddc;
   border-radius: 20px;
-  height: 90vh;
+  height: 85vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -323,14 +323,19 @@ section#about div.left_container a.button {
 }
 section#about div.right_container {
   width: 44%;
+  height: 806px;
 }
 
 section#about div.right_container div.img {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
 }
 
 section#about div.right_container div.img img {
   display: block;
   width: 100%;
+  height: 100%;
   border-radius: 30px;
 }
 
@@ -417,21 +422,14 @@ section#blog section.wrapper ul li {
 section#blog section.wrapper ul li:first-child {
   margin-left: 0px;
 }
-section#blog section.wrapper ul li div.img_blog0 {
-  display: block;
-  width: 100%;
-}
-
-section#blog section.wrapper ul li div.img_blog0 img {
-  display: block;
-  width: 100%;
-  border-radius: 15px;
-}
 section#blog section.wrapper ul li div.img_blog {
+  display: inline-block;
+  width: 100%;
+  height: 350px;
 }
 
 section#blog section.wrapper ul li div.img_blog img {
-  display: block;
+  height: 100%;
   width: 100%;
   border-radius: 15px;
 }
@@ -446,6 +444,108 @@ section#blog section.wrapper ul li h5 {
 section#blog section.wrapper ul li p {
   font-size: 21px;
   font-weight: 500;
- 
-  
+}
+
+
+footer { 
+
+}
+
+footer section.content { 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+footer section.content div.social { 
+
+}
+
+footer section.content div.social h4 { 
+
+}
+
+footer section.content div.social h4 a { 
+
+}
+
+footer section.content div.social span { 
+
+}
+
+footer section.content div.social small { 
+
+}
+
+footer section.content div.social div.logocontainer { 
+
+}
+
+footer section.content div.social div.logocontainer ul { 
+
+}
+
+footer section.content div.social div.logocontainer ul li { 
+
+}
+
+footer section.content div.social div.logocontainer ul li a { 
+
+}
+
+footer section.content div.social div.logocontainer ul li a span { 
+
+}
+
+footer section.content div.social div.logocontainer ul li a span img { 
+
+}
+
+footer section.content div.blog { 
+
+}
+
+footer section.content div.blog h5 { 
+
+}
+
+footer section.content div.blog ul { 
+
+}
+
+footer section.content div.blog ul li { 
+
+}
+
+footer section.content div.blog ul li a { 
+
+}
+
+footer section.content div.About { 
+
+}
+
+footer section.content div.About h5 { 
+
+}
+
+footer section.content div.About ul { 
+
+}
+
+footer section.content div.About ul li { 
+
+}
+
+footer section.content div.About ul li a { 
+
+}
+
+footer section.content div.image { 
+
+}
+
+footer section.content div.image img { 
+
 }
