@@ -43,12 +43,7 @@ a {
   display: block;
   width: 100%;
 }
-p {
-  line-height: 1.6em;
-  font-size: 16px;
-  font-family: "Inter";
-  font-weight: 400;
-}
+
 .hidden {
   display: none;
 }
@@ -61,10 +56,7 @@ br.clear {
   margin: 0 auto;
   max-width: 1440px;
 }
-.dup {
-  width: 95%;
-  margin: 0 auto;
-}
+
 @font-face {
   font-family: "Inter";
   src: url("./fonts/Inter-Regular.woff") format("woff2"),
@@ -173,62 +165,62 @@ header section.container nav.right ul li a span.cart img {
   width: 100%;
   display: block;
 }
-section#Spotlight {
+#Spotlight {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-section#Spotlight section.left {
+#Spotlight section.left {
   width: 45%;
 }
 
-section#Spotlight section.left div.img_container {
+#Spotlight section.left div.img_container {
 }
 
-section#Spotlight section.left div.img_container img {
+#Spotlight section.left div.img_container img {
   display: block;
   width: 100%;
 }
 
-section#Spotlight section.right {
+#Spotlight section.right {
   width: 45%;
   margin-right: 80px;
 }
 
-section#Spotlight section.right h5 {
+#Spotlight section.right h5 {
   font-size: 22px;
   font-weight: 500;
   margin-bottom: 35px;
 }
 
-section#Spotlight section.right h1 {
+#Spotlight section.right h1 {
   font-size: 138px;
   font-weight: 600;
   line-height: 1.05em;
   margin-bottom: 25px;
 }
 
-section#Spotlight section.right h1 br {
+#Spotlight section.right h1 br {
 }
 
-section#Spotlight section.right p {
+#Spotlight section.right p {
   font-size: 20px;
   font-weight: 500;
   width: 85%;
   margin-bottom: 30px;
 }
-section#Spotlight section.right div.two_botton {
+#Spotlight section.right div.two_botton {
   display: flex;
   align-items: center;
   margin-top: 30px;
 }
 
-section#Spotlight section.right div.two_botton div.orange {
+#Spotlight section.right div.two_botton div.orange {
   margin-right: 15px;
 }
 
-section#Spotlight section.right div.two_botton div.orange a.button {
+#Spotlight section.right div.two_botton div.orange a.button {
   display: inline-block;
   color: #fff;
   background: #fe8e0b;
@@ -238,10 +230,10 @@ section#Spotlight section.right div.two_botton div.orange a.button {
   font-weight: 600;
 }
 
-section#Spotlight section.right div.two_botton div.black {
+#Spotlight section.right div.two_botton div.black {
 }
 
-section#Spotlight section.right div.two_botton div.black a.button {
+#Spotlight section.right div.two_botton div.black a.button {
   display: inline-block;
   color: #fff;
   border-radius: 180px 0px 0px 10px / 150px 0px 0px 10px;
@@ -279,31 +271,33 @@ section#about {
   padding: 110px 0px;
 }
 
-section#about {
-}
 section#about section.background {
-  background: #dedddc;
+  background: #dedddc url(images/about-.png) no-repeat;
   border-radius: 20px;
-  height: 74vh;
+  height: 82vh;
   display: flex;
   align-items: center;
+  background-size: 36%;
   justify-content: space-between;
+  background-position: right;
 }
+
 section#about section.background div.left_container {
   padding: 20px 0px 20px 70px;
   width: 67%;
 }
 
 section#about div.left_container h2 {
-  font-size: 60px;
+  font-size: 70px;
   font-weight: 600;
   margin-bottom: 20px;
 }
 
 section#about div.left_container p {
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 500;
   margin-bottom: 18px;
+  width: 98%;
 }
 section#about div.left_container white {
   background-color: #fe8c0a;
@@ -353,8 +347,7 @@ section#Content section.wrapper section.item.one {
 }
 
 section#Content section.wrapper section.item.one section.left {
-  position: relative;
-  width: 50%;
+  width: 45%;
 }
 
 section#Content section.wrapper section.item.one section.left div.img_bg {
@@ -368,34 +361,15 @@ section#Content section.wrapper section.item.one section.left div.img_bg img {
   width: 100%;
 }
 
-section#Content section.wrapper section.item.one section.left div.img_bottle {
-  position: absolute;
-  position: absolute;
-  top: 10px;
-  left: 1px;
-  width: 97%;
-}
-
-section#Content
-  section.wrapper
-  section.item.one
-  section.left
-  div.img_bottle
-  img {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
 section#Content section.wrapper section.item.one section.right {
   position: relative;
-  width: 46%;
+  width: 52%;
 }
 
 section#Content section.wrapper section.item.one section.right div.img_dot {
   display: inline-block;
   position: absolute;
-  bottom: 633px;
+  bottom: 560px;
   left: 31px;
 }
 
@@ -408,149 +382,175 @@ section#Content section.wrapper section.item.one section.right div.img_dot img {
 section#Content section.wrapper section.item.one section.right h1 {
   font-size: 70px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 section#Content section.wrapper section.item.one section.right h1 br {
 }
 
 section#Content section.wrapper section.item.one section.right p {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 
 section#Content section.wrapper section.item.one section.right a.button {
+  display: inline-block;
+  color: #fff;
+  background: #3a2929;
+  padding: 18px 47px 18px 20px;
+  border-radius: 20px 20px 192px 20px / 20px 20px 150px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 35px;
+}
+#Content {
 }
 
-section#Content section.wrapper section.item.middle {
+#Content section.wrapper section.item.two {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-bottom: 100px;
 }
-section#Content section.wrapper section.item.middle section.left {
-  width: 45%;
-}
-
-section#Content section.wrapper section.item.middle section.left div.img_dot {
-}
-
-section#Content
-  section.wrapper
-  section.item.middle
-  section.left
-  div.img_dot
-  img {
-  width: 100%;
-  display: block;
-}
-
-section#Content section.wrapper section.item.middle section.left h1 {
-}
-
-section#Content section.wrapper section.item.middle section.left h1 br {
-}
-
-section#Content section.wrapper section.item.middle section.left p {
-}
-
-section#Content section.wrapper section.item.middle section.left a.button {
-}
-section#Content section.wrapper section.item.middle section.right {
+#Content section.wrapper section.item.two section.left {
   position: relative;
+  width: 56%;
 }
 
-section#Content section.wrapper section.item.middle section.right div.img_bg {
-}
-
-section#Content
-  section.wrapper
-  section.item.middle
-  section.right
-  div.img_bg
-  img {
-  display: block;
-  width: 100%;
-}
-
-section#Content section.wrapper section.item.middle section.right div.img_girl {
+#Content section.wrapper section.item.two section.left div.img_dot {
+  display: inline-block;
   position: absolute;
-  top: 6px;
-  right: 1px;
-  width: 99%;
+  bottom: 560px;
+  left: 31px;
 }
 
-section#Content
-  section.wrapper
-  section.item.middle
-  section.right
-  div.img_girl
-  img {
-  display: block;
+#Content section.wrapper section.item.two section.left div.img_dot img {
   width: 100%;
+  display: block;
   height: 100%;
 }
 
-section#Content section.wrapper section.item.end {
+#Content section.wrapper section.item.two section.left h1 {
+  font-size: 70px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+#Content section.wrapper section.item.two section.left h1 br {
+}
+
+#Content section.wrapper section.item.two section.left p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+#Content section.wrapper section.item.two section.left a.button {
+  display: inline-block;
+  color: #fff;
+  background: #3a2929;
+  padding: 18px 47px 18px 20px;
+  border-radius: 20px 20px 192px 20px / 20px 20px 150px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 35px;
+}
+#Content section.wrapper section.item.two section.right {
+  width: 52%;
+}
+
+#Content section.wrapper section.item.two section.right div.img_bg {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+#Content section.wrapper section.item.two section.right div.img_bg img {
+  display: block;
+  width: 100%;
+}
+
+#Content section.item.three {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-bottom: 100px;
 }
 
-section#Content section.wrapper section.item.end section.left {
-  position: relative;
+#Content section.item.three section.left {
+  width: 46%;
 }
 
-section#Content section.wrapper section.item.end section.left div.img_bg {
+#Content section.item.three section.left div.img_bg {
+  display: inline-block;
 }
 
-section#Content section.wrapper section.item.end section.left div.img_bg img {
-  display: block;
-  width: 100%;
-}
-
-section#Content section.wrapper section.item.end section.left div.img_white {
-  position: absolute;
-  top: -3px;
-  left: 1px;
-  width: 100%;
-}
-
-section#Content
-  section.wrapper
-  section.item.end
-  section.left
-  div.img_white
-  img {
-  display: block;
+#Content section.item.three section.left div.img_bg img {
   width: 100%;
   height: 100%;
-}
-
-section#Content section.wrapper section.item.end section.right {
-  width: 45%;
-}
-
-section#Content section.wrapper section.item.end section.right div.img_dot {
-}
-
-section#Content section.wrapper section.item.end section.right div.img_dot img {
-  width: 100%;
   display: block;
 }
 
-section#Content section.wrapper section.item.end section.right h1 {
+#Content section.item.three section.right {
+  position: relative;
+  width: 48%;
 }
 
-section#Content section.wrapper section.item.end section.right h1 br {
+#Content section.item.three section.right div.img_dot {
+  position: absolute;
+  bottom: 480px;
+  right: 30px;
 }
 
-section#Content section.wrapper section.item.end section.right p {
+#Content section.item.three section.right div.img_dot img {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
-section#Content section.wrapper section.item.end section.right a.button {
+#Content section.item.three section.right h1 {
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#Content section.item.three section.right h1 br {
+}
+
+#Content section.item.three section.right form {
+  width: 80%;
+  display: flex;
+  border-radius: 6px;
+  justify-content: space-around;
+}
+
+#Content
+  section.wrapper
+  section.item.three
+  section.right
+  form
+  input[type="text"] {
+  background: #fbfafb;
+  width: 60%;
+  padding: 23px 20px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 500;
+}
+#Content
+  section.wrapper
+  section.item.three
+  section.right
+  form
+  input[type="submit"] {
+  cursor: pointer;
+  background: #3a2929;
+  border-radius: 12px;
+  width: 26%;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 section#blog {
@@ -606,87 +606,76 @@ section#blog section.wrapper ul li p {
 }
 
 footer {
-  background: #dedddc;
-  height: 50vh;
+}
+
+footer section.wrapper {
 }
 
 footer section.content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
-footer section.content div.social {
+footer section.content div.left {
 }
 
-footer section.content div.social h4 {
+footer section.content div.left h4 {
 }
 
-footer section.content div.social h4 a {
+footer section.content div.left h4 a {
 }
 
-footer section.content div.social span {
+footer section.content div.left span {
 }
 
-footer section.content div.social small {
+footer section.content div.left small {
 }
 
-footer section.content div.social div.logocontainer {
+footer section.content div.left div.logocontainer {
 }
 
-footer section.content div.social div.logocontainer ul {
+footer section.content div.left div.logocontainer ul {
 }
 
-footer section.content div.social div.logocontainer ul li {
+footer section.content div.left div.logocontainer ul li {
 }
 
-footer section.content div.social div.logocontainer ul li a {
+footer section.content div.left div.logocontainer ul li a {
 }
 
-footer section.content div.social div.logocontainer ul li a span {
+footer section.content div.left div.logocontainer ul li a span {
 }
 
-footer section.content div.social div.logocontainer ul li a span img {
+footer section.content div.left div.logocontainer ul li a span img {
 }
 
-footer section.content div.blog {
+footer section.content div.right {
 }
 
-footer section.content div.blog h5 {
+footer section.content div.right div.blog {
 }
 
-footer section.content div.blog ul {
+footer section.content div.right div.blog h5 {
 }
 
-footer section.content div.blog ul li {
+footer section.content div.right div.blog ul {
 }
 
-footer section.content div.blog ul li a {
+footer section.content div.right div.blog ul li {
 }
 
-footer section.content div.About {
+footer section.content div.right div.blog ul li a {
 }
 
-footer section.content div.About h5 {
+footer section.content div.right div.About {
 }
 
-footer section.content div.About ul {
+footer section.content div.right div.About h5 {
 }
 
-footer section.content div.About ul li {
+footer section.content div.right div.About ul {
 }
 
-footer section.content div.About ul li a {
+footer section.content div.right div.About ul li {
 }
 
-footer section.content div.image {
-  display: inline-block;
-  width: 100px;
-  height: 200px;
-}
-
-footer section.content div.image img {
-  display: block;
-  width: 100%;
-  height: 100%;
+footer section.content div.right div.About ul li a {
 }
