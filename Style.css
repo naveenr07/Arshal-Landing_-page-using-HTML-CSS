@@ -606,76 +606,114 @@ section#blog section.wrapper ul li p {
 }
 
 footer {
+  background: #dadade url(images/footer.jpg) no-repeat;
+  display: block;
+  height: 50vh;
+  align-items: center;
+  background-size: 16%;
+  background-position: right;
+  display: flex;
 }
 
 footer section.wrapper {
 }
-
 footer section.content {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 }
 
-footer section.content div.left {
+footer section.content div.social {
 }
 
-footer section.content div.left h4 {
+footer section.content div.social h4 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
-footer section.content div.left h4 a {
+footer section.content div.social h4 a {
+  display: inline-block;
 }
 
-footer section.content div.left span {
+footer section.content div.social span {
+  display: inline-block;
+  width: 70%;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 
-footer section.content div.left small {
+footer section.content div.social small {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
 }
 
-footer section.content div.left div.logocontainer {
+footer section.content div.social div.logocontainer {
+  text-align: center;
 }
 
-footer section.content div.left div.logocontainer ul {
+footer section.content div.social div.logocontainer ul {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-footer section.content div.left div.logocontainer ul li {
+footer section.content div.social div.logocontainer ul li {
 }
 
-footer section.content div.left div.logocontainer ul li a {
+footer section.content div.social div.logocontainer ul li a {
+  display: inline-block;
 }
 
-footer section.content div.left div.logocontainer ul li a span {
+footer section.content div.social div.logocontainer ul li a span {
+  display: inline-block;
+  background: #ff8f0d;
+  border-radius: 9px;
+  padding: 10px 10px;
+  width: 35px;
+
 }
 
-footer section.content div.left div.logocontainer ul li a span img {
+footer section.content div.social div.logocontainer ul li a span img {
+  width: 100%;
+  display: block;
+  height: 100%;
 }
 
-footer section.content div.right {
+footer section.content div.blog {
 }
 
-footer section.content div.right div.blog {
+footer section.content div.blog h5 {
 }
 
-footer section.content div.right div.blog h5 {
+footer section.content div.blog ul {
 }
 
-footer section.content div.right div.blog ul {
+footer section.content div.blog ul li {
 }
 
-footer section.content div.right div.blog ul li {
+footer section.content div.blog ul li a {
 }
 
-footer section.content div.right div.blog ul li a {
+footer section.content div.About {
 }
 
-footer section.content div.right div.About {
+footer section.content div.About h5 {
 }
 
-footer section.content div.right div.About h5 {
+footer section.content div.About ul {
 }
 
-footer section.content div.right div.About ul {
+footer section.content div.About ul li {
 }
 
-footer section.content div.right div.About ul li {
+footer section.content div.About ul li a {
 }
 
-footer section.content div.right div.About ul li a {
+footer section.content div.image {
+}
+
+footer section.content div.image img {
 }
