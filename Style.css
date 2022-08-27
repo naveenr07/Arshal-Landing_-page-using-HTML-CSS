@@ -284,7 +284,7 @@ section#about {
 section#about section.background {
   background: #dedddc;
   border-radius: 20px;
-  height: 85vh;
+  height: 74vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -323,7 +323,7 @@ section#about div.left_container a.button {
 }
 section#about div.right_container {
   width: 44%;
-  height: 806px;
+  height: 650px;
 }
 
 section#about div.right_container div.img {
@@ -345,53 +345,201 @@ section#Content {
 section#Content section.wrapper {
 }
 
-section#Content section.wrapper section.item {
+section#Content section.wrapper section.item.one {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 100px;
 }
 
-section#Content section.wrapper section.item section.left {
+section#Content section.wrapper section.item.one section.left {
+  position: relative;
 }
 
-section#Content section.wrapper section.item section.left div.img_bg {
+section#Content section.wrapper section.item.one section.left div.img_bg {
+  position: relative;
 }
 
-section#Content section.wrapper section.item section.left div.img_bg img {
+section#Content section.wrapper section.item.one section.left div.img_bg img {
   display: block;
   width: 100%;
 }
 
-section#Content section.wrapper section.item section.left div.img_bottle {
+section#Content section.wrapper section.item.one section.left div.img_bottle {
+  position: absolute;
+  position: absolute;
+  top: 10px;
+  left: 1px;
+  width: 97%;
 }
 
-section#Content section.wrapper section.item section.left div.img_bottle img {
+section#Content
+  section.wrapper
+  section.item.one
+  section.left
+  div.img_bottle
+  img {
   display: block;
   width: 100%;
+  height: 100%;
 }
 
-section#Content section.wrapper section.item section.right {
+section#Content section.wrapper section.item.one section.right {
   width: 45%;
 }
 
-section#Content section.wrapper section.item section.right div.img_dot {
+section#Content section.wrapper section.item.one section.right div.img_dot {
 }
 
-section#Content section.wrapper section.item section.right div.img_dot img {
+section#Content section.wrapper section.item.one section.right div.img_dot img {
   width: 100%;
   display: block;
 }
 
-section#Content section.wrapper section.item section.right h1 {
+section#Content section.wrapper section.item.one section.right h1 {
 }
 
-section#Content section.wrapper section.item section.right h1 br {
+section#Content section.wrapper section.item.one section.right h1 br {
 }
 
-section#Content section.wrapper section.item section.right p {
+section#Content section.wrapper section.item.one section.right p {
 }
 
-section#Content section.wrapper section.item section.right a.button {
+section#Content section.wrapper section.item.one section.right a.button {
+}
+
+section#Content section.wrapper section.item.middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+section#Content section.wrapper section.item.middle section.left {
+  position: relative;
+}
+
+section#Content section.wrapper section.item.middle section.left div.img_bg {
+  position: relative;
+}
+
+section#Content
+  section.wrapper
+  section.item.middle
+  section.left
+  div.img_bg
+  img {
+  display: block;
+  width: 100%;
+}
+
+section#Content
+  section.wrapper
+  section.item.middle
+  section.left
+  div.img_bottle {
+  position: absolute;
+  position: absolute;
+  top: 10px;
+  left: 1px;
+  width: 97%;
+}
+
+section#Content
+  section.wrapper
+  section.item.middle
+  section.left
+  div.img_bottle
+  img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+section#Content section.wrapper section.item.middle section.right {
+  width: 45%;
+}
+
+section#Content section.wrapper section.item.middle section.right div.img_dot {
+}
+
+section#Content
+  section.wrapper
+  section.item.middle
+  section.right
+  div.img_dot
+  img {
+  width: 100%;
+  display: block;
+}
+
+section#Content section.wrapper section.item.middle section.right h1 {
+}
+
+section#Content section.wrapper section.item.middle section.right h1 br {
+}
+
+section#Content section.wrapper section.item.middle section.right p {
+}
+
+section#Content section.wrapper section.item.middle section.right a.button {
+}
+
+section#Content section.wrapper section.item.end {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+section#Content section.wrapper section.item.end section.left {
+  position: relative;
+}
+
+section#Content section.wrapper section.item.end section.left div.img_bg {
+  position: relative;
+}
+
+section#Content section.wrapper section.item.end section.left div.img_bg img {
+  display: block;
+  width: 100%;
+}
+
+section#Content section.wrapper section.item.end section.left div.img_ {
+  position: absolute;
+  top: 9px;
+  left: 14px;
+  width: 99%;
+}
+
+section#Content section.wrapper section.item.end section.left div.img_girl img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+section#Content section.wrapper section.item.end section.right {
+  width: 45%;
+}
+
+section#Content section.wrapper section.item.end section.right div.img_dot {
+}
+
+section#Content section.wrapper section.item.end section.right div.img_dot img {
+  width: 100%;
+  display: block;
+}
+
+section#Content section.wrapper section.item.end section.right h1 {
+}
+
+section#Content section.wrapper section.item.end section.right h1 br {
+}
+
+section#Content section.wrapper section.item.end section.right p {
+}
+
+section#Content section.wrapper section.item.end section.right a.button {
 }
 
 section#blog {
@@ -446,106 +594,88 @@ section#blog section.wrapper ul li p {
   font-weight: 500;
 }
 
-
-footer { 
-
+footer {
+  background: #dedddc;
+  height: 50vh;
 }
 
-footer section.content { 
+footer section.content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
-footer section.content div.social { 
-
+footer section.content div.social {
 }
 
-footer section.content div.social h4 { 
-
+footer section.content div.social h4 {
 }
 
-footer section.content div.social h4 a { 
-
+footer section.content div.social h4 a {
 }
 
-footer section.content div.social span { 
-
+footer section.content div.social span {
 }
 
-footer section.content div.social small { 
-
+footer section.content div.social small {
 }
 
-footer section.content div.social div.logocontainer { 
-
+footer section.content div.social div.logocontainer {
 }
 
-footer section.content div.social div.logocontainer ul { 
-
+footer section.content div.social div.logocontainer ul {
 }
 
-footer section.content div.social div.logocontainer ul li { 
-
+footer section.content div.social div.logocontainer ul li {
 }
 
-footer section.content div.social div.logocontainer ul li a { 
-
+footer section.content div.social div.logocontainer ul li a {
 }
 
-footer section.content div.social div.logocontainer ul li a span { 
-
+footer section.content div.social div.logocontainer ul li a span {
 }
 
-footer section.content div.social div.logocontainer ul li a span img { 
-
+footer section.content div.social div.logocontainer ul li a span img {
 }
 
-footer section.content div.blog { 
-
+footer section.content div.blog {
 }
 
-footer section.content div.blog h5 { 
-
+footer section.content div.blog h5 {
 }
 
-footer section.content div.blog ul { 
-
+footer section.content div.blog ul {
 }
 
-footer section.content div.blog ul li { 
-
+footer section.content div.blog ul li {
 }
 
-footer section.content div.blog ul li a { 
-
+footer section.content div.blog ul li a {
 }
 
-footer section.content div.About { 
-
+footer section.content div.About {
 }
 
-footer section.content div.About h5 { 
-
+footer section.content div.About h5 {
 }
 
-footer section.content div.About ul { 
-
+footer section.content div.About ul {
 }
 
-footer section.content div.About ul li { 
-
+footer section.content div.About ul li {
 }
 
-footer section.content div.About ul li a { 
-
+footer section.content div.About ul li a {
 }
 
-footer section.content div.image { 
-
+footer section.content div.image {
+  display: inline-block;
+  width: 100px;
+  height: 200px;
 }
 
-footer section.content div.image img { 
-
+footer section.content div.image img {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
