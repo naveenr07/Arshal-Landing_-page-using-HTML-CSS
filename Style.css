@@ -56,28 +56,29 @@ br.clear {
   margin: 0 auto;
   max-width: 1440px;
 }
-
 @font-face {
-  font-family: "Inter";
-  src: url("./fonts/Inter-Regular.woff") format("woff2"),
-    url("./fonts/Inter-Regular.woff2") format("woff");
+  font-family: "Playfair Display";
+  src: url("./fonts/PlayfairDisplay-Regular.woff2") format("woff2"),
+    url("./fonts/PlayfairDisplay-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Inter";
-  src: url("./fonts/Inter-Bold.woff") format("woff2"),
-    url("./fonts/Inter-Bold.woff2") format("woff");
-  font-weight: bold;
+  src: url("./fonts/Inter-SemiBold.woff2") format("woff2"),
+    url("./fonts/Inter-SemiBold.woff") format("woff");
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Inter";
-  src: url("./fonts/Inter-SemiBold.woff") format("woff2"),
-    url("./fonts/Inter-SemiBold.woff2") format("woff");
-  font-weight: 600;
+  src: url("./fonts/Inter-Regular.woff2") format("woff2"),
+    url("./fonts/Inter-Regular.woff") format("woff");
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
@@ -196,9 +197,10 @@ header section.container nav.right ul li a span.cart img {
 
 #Spotlight section.right h1 {
   font-size: 138px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.05em;
   margin-bottom: 25px;
+  font-family: "Playfair Display";
 }
 
 #Spotlight section.right h1 br {
@@ -208,26 +210,36 @@ header section.container nav.right ul li a span.cart img {
   font-size: 20px;
   font-weight: 500;
   width: 85%;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
 }
-#Spotlight section.right div.two_botton {
+#Spotlight section.right div.button {
   display: flex;
-  align-items: center;
-  margin-top: 30px;
 }
 
-#Spotlight section.right div.two_botton div.orange {
-  margin-right: 15px;
-}
-
-#Spotlight section.right div.two_botton div.orange a.button {
+#Spotlight section.right div.button a.button.left {
   display: inline-block;
+  background: linear-gradient(-56deg, transparent 38px, #fe8e0b 0) top right;
+  width: 25%;
+  font-size: 19px;
   color: #fff;
-  background: #fe8e0b;
-  padding: 18px 80px 18px 18px;
-  border-radius: 0px 20px 192px 0px / 0px 20px 150px 0px;
-  font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
+  padding: 20px 0px 20px 55px;
+  display: inline-block;
+  height: 65px;
+  border-radius: 10px;
+}
+
+#Spotlight section.right div.button a.button.right {
+  display: inline-block;
+  background: linear-gradient(125deg, transparent 38px, #3a2929 0) top left;
+  width: 25%;
+  font-size: 19px;
+  color: #fff;
+  font-weight: 500;
+  padding: 22px 20px 20px 72px;
+  display: inline-block;
+  height: 65px;
+  border-radius: 10px;
 }
 
 #Spotlight section.right div.two_botton div.black {
@@ -299,21 +311,21 @@ section#about div.left_container p {
   margin-bottom: 18px;
   width: 98%;
 }
-section#about div.left_container white {
-  background-color: #fe8c0a;
-  width: 10%;
-  height: 100px;
+section#about div.left_container p:last-child {
+  margin-bottom: 0px;
 }
-
 section#about div.left_container a.button {
   display: inline-block;
+  background: linear-gradient(-54deg, transparent 39px, #3a2929 0) top right;
+  width: 25%;
+  font-size: 19px;
   color: #fff;
-  background: #3a2929;
-  padding: 18px 47px 18px 20px;
-  border-radius: 20px 20px 192px 20px / 20px 20px 150px 20px;
-  font-size: 18px;
-  font-weight: 600;
-  margin-top: 25px;
+  font-weight: 500;
+  padding: 21px 0px 20px 62px;
+  display: inline-block;
+  height: 66px;
+  border-radius: 10px;
+  margin-top: 40px;
 }
 section#about div.right_container {
   width: 44%;
@@ -393,16 +405,21 @@ section#Content section.wrapper section.item.one section.right p {
   font-weight: 500;
   margin-bottom: 25px;
 }
-
+section#Content section.wrapper section.item.one section.right p:last-child {
+  margin-bottom: 0;
+}
 section#Content section.wrapper section.item.one section.right a.button {
   display: inline-block;
+  background: linear-gradient(-54deg, transparent 39px, #3a2929 0) top right;
+  width: 31%;
+  font-size: 19px;
   color: #fff;
-  background: #3a2929;
-  padding: 18px 47px 18px 20px;
-  border-radius: 20px 20px 192px 20px / 20px 20px 150px 20px;
-  font-size: 18px;
-  font-weight: 600;
-  margin-top: 35px;
+  font-weight: 500;
+  padding: 21px 0px 20px 54px;
+  display: inline-block;
+  height: 70px;
+  border-radius: 13px;
+  margin-top: 40px;
 }
 #Content {
 }
@@ -445,16 +462,21 @@ section#Content section.wrapper section.item.one section.right a.button {
   font-weight: 500;
   margin-bottom: 25px;
 }
-
+#Content section.wrapper section.item.two section.left p:last-child {
+  margin-bottom: 0;
+}
 #Content section.wrapper section.item.two section.left a.button {
   display: inline-block;
+  background: linear-gradient(-54deg, transparent 39px, #3a2929 0) top right;
+  width: 31%;
+  font-size: 19px;
   color: #fff;
-  background: #3a2929;
-  padding: 18px 47px 18px 20px;
-  border-radius: 20px 20px 192px 20px / 20px 20px 150px 20px;
-  font-size: 18px;
-  font-weight: 600;
-  margin-top: 35px;
+  font-weight: 500;
+  padding: 21px 0px 20px 54px;
+  display: inline-block;
+  height: 70px;
+  border-radius: 13px;
+  margin-top: 40px;
 }
 #Content section.wrapper section.item.two section.right {
   width: 52%;
