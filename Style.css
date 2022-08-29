@@ -90,7 +90,6 @@ header section.container {
   align-items: center;
   justify-content: space-between;
   padding: 33px 0px;
-  margin: 0px 154px;
 }
 
 header section.container nav.left {
@@ -173,7 +172,7 @@ header section.container nav.right ul li a span.cart img {
 }
 
 #Spotlight section.left {
-  width: 45%;
+  width: 51%;
 }
 
 #Spotlight section.left div.img_container {
@@ -207,9 +206,9 @@ header section.container nav.right ul li a span.cart img {
 }
 
 #Spotlight section.right p {
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 500;
-  width: 85%;
+  width: 88%;
   margin-bottom: 70px;
 }
 #Spotlight section.right div.button {
@@ -237,7 +236,6 @@ header section.container nav.right ul li a span.cart img {
   color: #fff;
   font-weight: 500;
   padding: 22px 20px 20px 72px;
-  display: inline-block;
   height: 65px;
   border-radius: 10px;
 }
@@ -256,7 +254,7 @@ header section.container nav.right ul li a span.cart img {
 }
 
 section#brands {
-  padding: 40px 170px 40px 330px;
+  padding: 60px 0px;
 
   background: #f7f4f1;
 }
@@ -264,12 +262,14 @@ section#brands {
 section#brands ul {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 section#brands ul li {
 }
-
+section#brands ul li:first-child {
+  margin-left: 190px;
+}
 section#brands ul li a {
   display: inline-block;
 }
@@ -286,16 +286,16 @@ section#about {
 section#about section.background {
   background: #dedddc url(images/about-.png) no-repeat;
   border-radius: 20px;
-  height: 82vh;
+  height: 85vh;
   display: flex;
   align-items: center;
-  background-size: 36%;
+  background-size: 536px;
   justify-content: space-between;
   background-position: right;
 }
 
 section#about section.background div.left_container {
-  padding: 20px 0px 20px 70px;
+  padding: 0px 0px 0px 70px;
   width: 67%;
 }
 
@@ -345,70 +345,69 @@ section#about div.right_container div.img img {
   border-radius: 30px;
 }
 
-section#Content {
+section#content {
 }
 
-section#Content section.wrapper {
+section#content section.wrapper {
 }
 
-section#Content section.wrapper section.item.one {
+section#content section.wrapper section.item.one {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-bottom: 100px;
 }
 
-section#Content section.wrapper section.item.one section.left {
+section#content section.wrapper section.item.one section.left {
   width: 45%;
 }
 
-section#Content section.wrapper section.item.one section.left div.img_bg {
+section#content section.wrapper section.item.one section.left div.img_bg {
   width: 100%;
   height: 100%;
   display: inline-block;
 }
 
-section#Content section.wrapper section.item.one section.left div.img_bg img {
+section#content section.wrapper section.item.one section.left div.img_bg img {
   display: block;
   width: 100%;
 }
 
-section#Content section.wrapper section.item.one section.right {
+section#content section.wrapper section.item.one section.right {
   position: relative;
   width: 52%;
 }
 
-section#Content section.wrapper section.item.one section.right div.img_dot {
+section#content section.wrapper section.item.one section.right div.img_dot {
   display: inline-block;
   position: absolute;
   bottom: 560px;
-  left: 31px;
 }
 
-section#Content section.wrapper section.item.one section.right div.img_dot img {
+section#content section.wrapper section.item.one section.right div.img_dot img {
   width: 100%;
   display: block;
   height: 100%;
 }
 
-section#Content section.wrapper section.item.one section.right h1 {
+section#content section.wrapper section.item.one section.right h1 {
   font-size: 70px;
   font-weight: 600;
   margin-bottom: 30px;
 }
 
-section#Content section.wrapper section.item.one section.right h1 br {
+section#content section.wrapper section.item.one section.right h1 br {
 }
 
-section#Content section.wrapper section.item.one section.right p {
+section#content section.wrapper section.item.one section.right p {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 25px;
 }
-section#Content section.wrapper section.item.one section.right p:last-child {
+section#content section.wrapper section.item.one section.right p:last-child {
   margin-bottom: 0;
 }
-section#Content section.wrapper section.item.one section.right a.button {
+section#content section.wrapper section.item.one section.right a.button {
   display: inline-block;
   background: linear-gradient(-54deg, transparent 39px, #3a2929 0) top right;
   width: 31%;
@@ -421,51 +420,50 @@ section#Content section.wrapper section.item.one section.right a.button {
   border-radius: 13px;
   margin-top: 40px;
 }
-#Content {
+#content {
 }
 
-#Content section.wrapper section.item.two {
+#content section.wrapper section.item.two {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-bottom: 100px;
 }
-#Content section.wrapper section.item.two section.left {
+#content section.wrapper section.item.two section.left {
   position: relative;
   width: 56%;
 }
 
-#Content section.wrapper section.item.two section.left div.img_dot {
+#content section.wrapper section.item.two section.left div.img_dot {
   display: inline-block;
   position: absolute;
   bottom: 560px;
-  left: 31px;
 }
 
-#Content section.wrapper section.item.two section.left div.img_dot img {
+#content section.wrapper section.item.two section.left div.img_dot img {
   width: 100%;
   display: block;
   height: 100%;
 }
 
-#Content section.wrapper section.item.two section.left h1 {
+#content section.wrapper section.item.two section.left h1 {
   font-size: 70px;
   font-weight: 600;
   margin-bottom: 30px;
 }
 
-#Content section.wrapper section.item.two section.left h1 br {
+#content section.wrapper section.item.two section.left h1 br {
 }
 
-#Content section.wrapper section.item.two section.left p {
+#content section.wrapper section.item.two section.left p {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 25px;
 }
-#Content section.wrapper section.item.two section.left p:last-child {
+#content section.wrapper section.item.two section.left p:last-child {
   margin-bottom: 0;
 }
-#Content section.wrapper section.item.two section.left a.button {
+#content section.wrapper section.item.two section.left a.button {
   display: inline-block;
   background: linear-gradient(-54deg, transparent 39px, #3a2929 0) top right;
   width: 31%;
@@ -478,98 +476,87 @@ section#Content section.wrapper section.item.one section.right a.button {
   border-radius: 13px;
   margin-top: 40px;
 }
-#Content section.wrapper section.item.two section.right {
+#content section.wrapper section.item.two section.right {
   width: 52%;
 }
 
-#Content section.wrapper section.item.two section.right div.img_bg {
+#content section.wrapper section.item.two section.right div.img_bg {
   width: 100%;
   height: 100%;
   display: inline-block;
 }
 
-#Content section.wrapper section.item.two section.right div.img_bg img {
+#content section.wrapper section.item.two section.right div.img_bg img {
   display: block;
   width: 100%;
 }
 
-#Content section.item.three {
+#content section.item.three {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-bottom: 100px;
 }
 
-#Content section.item.three section.left {
+#content section.item.three section.left {
   width: 46%;
 }
 
-#Content section.item.three section.left div.img_bg {
+#content section.item.three section.left div.img_bg {
   display: inline-block;
 }
 
-#Content section.item.three section.left div.img_bg img {
+#content section.item.three section.left div.img_bg img {
   width: 100%;
   height: 100%;
   display: block;
 }
 
-#Content section.item.three section.right {
+#content section.item.three section.right {
   position: relative;
   width: 48%;
 }
 
-#Content section.item.three section.right div.img_dot {
+#content section.item.three section.right div.img_dot {
   position: absolute;
   bottom: 480px;
-  right: 30px;
 }
 
-#Content section.item.three section.right div.img_dot img {
+#content section.item.three section.right div.img_dot img {
   width: 100%;
   height: 100%;
   display: block;
 }
 
-#Content section.item.three section.right h1 {
+#content section.item.three section.right h1 {
   font-size: 70px;
   font-weight: bold;
   margin-bottom: 30px;
 }
 
-#Content section.item.three section.right h1 br {
+#content section.item.three section.right h1 br {
 }
 
-#Content section.item.three section.right form {
-  width: 80%;
+#content section.item.three section.right form {
   display: flex;
   border-radius: 6px;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 
-#Content
-  section.wrapper
-  section.item.three
-  section.right
-  form
-  input[type="text"] {
+#content section.item.three section.right form input[type="text"] {
   background: #fbfafb;
-  width: 60%;
+  width: 42%;
   padding: 23px 20px;
-  border-radius: 12px;
+  border-radius: 8px;
   font-size: 18px;
   font-weight: 500;
+  margin-right: 28px;
 }
-#Content
-  section.wrapper
-  section.item.three
-  section.right
-  form
-  input[type="submit"] {
+#content section.item.three section.right form input[type="submit"] {
   cursor: pointer;
   background: #3a2929;
-  border-radius: 12px;
-  width: 26%;
+  border-radius: 8px;
+  width: 28%;
   color: #ffffff;
   font-weight: 500;
   font-size: 18px;
@@ -588,14 +575,12 @@ section#blog section.wrapper h1 {
   font-weight: 600;
   margin-bottom: 50px;
 }
-
 section#blog section.wrapper ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
   text-align: center;
 }
-
 section#blog section.wrapper ul li {
   margin-left: 50px;
   width: 32%;
@@ -606,7 +591,7 @@ section#blog section.wrapper ul li:first-child {
 section#blog section.wrapper ul li div.img_blog {
   display: inline-block;
   width: 100%;
-  height: 350px;
+  height: 310px;
 }
 
 section#blog section.wrapper ul li div.img_blog img {
@@ -623,17 +608,16 @@ section#blog section.wrapper ul li h5 {
 }
 
 section#blog section.wrapper ul li p {
-  font-size: 21px;
+  font-size: 17px;
   font-weight: 500;
+  width: 98%;
 }
 
 footer {
   background: #dadade url(images/footer.jpg) no-repeat;
-  display: block;
   height: 55vh;
-  align-items: center;
-  background-size: 18%;
-  background-position: right;
+  background-size: 22%;
+  background-position: right 63px;
   display: flex;
   align-items: center;
 }
@@ -653,15 +637,14 @@ footer section.content div.left div.social {
 }
 
 footer section.content div.left div.social h4 {
-  font-weight: bold;
-  font-size: 30px;
-  margin-bottom: 20px;
+
 }
 
 footer section.content div.left div.social h4 a {
   display: inline-block;
   font-weight: 600;
   font-size: 30px;
+  margin-bottom: 20px;
 }
 
 footer section.content div.left div.social span {
@@ -711,15 +694,16 @@ footer section.content div.left div.social div.logocontainer ul li a span img {
 footer section.content div.right {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   width: 80%;
 }
 footer section.content div.right div.blog {
 }
 
-footer section.content div.right div.blog h5 {
-  font-size: 24px;
+footer section.content div.right div.blog ul li h5 a {
+  font-size: 22px;
   font-weight: 600;
-  margin-bottom: 20px;
+  display: inline-block;
 }
 
 footer section.content div.right div.blog ul {
@@ -727,59 +711,62 @@ footer section.content div.right div.blog ul {
 
 footer section.content div.right div.blog ul li {
   margin-bottom: 20px;
+  text-align: left;
 }
 
 footer section.content div.right div.blog ul li a {
   display: inline-block;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
 }
 
-footer section.content div.right div.About {
+footer section.content div.right div.about {
 }
 
-footer section.content div.right div.About h5 {
-  font-size: 24px;
+footer section.content div.right div.about h5 {
+  font-size: 22px;
   font-weight: 600;
   margin-bottom: 20px;
 }
 
-footer section.content div.right div.About ul {
+footer section.content div.right div.about ul {
 }
 
-footer section.content div.right div.About ul li {
+footer section.content div.right div.about ul li {
   margin-bottom: 20px;
+  text-align: left;
 }
-
-footer section.content div.right div.About ul li a {
+footer section.content div.right div.about ul li h5 a {
+  font-size: 24px;
+  font-weight: 600;
   display: inline-block;
-  font-size: 18px;
+}
+footer section.content div.right div.about ul li a {
+  display: inline-block;
+  font-size: 16px;
   font-weight: 500;
 }
 
-footer section.content div.right div.image {
+footer section.content div.right div.product {
+  margin-right: 170px;
+  text-align: left;
 }
 
-footer section.content div.right div.image img {
-}
-footer section.content div.right div.Product {
-}
-
-footer section.content div.right div.Product h5 {
-  font-size: 24px;
+footer section.content div.right div.product ul li h5 a {
+  font-size: 22px;
   font-weight: 600;
-  margin-bottom: 20px;
-}
-
-footer section.content div.right div.Product ul {
-}
-
-footer section.content div.right div.Product ul li {
-  margin-bottom: 20px;
-}
-
-footer section.content div.right div.Product ul li a {
   display: inline-block;
-  font-size: 18px;
+}
+
+footer section.content div.right div.product ul {
+}
+
+footer section.content div.right div.product ul li {
+  margin-bottom: 20px;
+}
+
+footer section.content div.right div.product ul li a {
+  display: inline-block;
+  font-size: 16px;
   font-weight: 500;
 }

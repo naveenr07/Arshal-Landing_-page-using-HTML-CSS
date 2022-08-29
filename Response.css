@@ -1,0 +1,311 @@
+@media all and (max-width: 1440px) {
+  #Spotlight section.right h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+
+  #Spotlight section.right h1 {
+    font-size: 100px;
+  }
+  #Spotlight section.right p {
+    font-size: 15px;
+    width: 89%;
+    margin-bottom: 50px;
+  }
+  #Spotlight section.right div.button a.button.left {
+    background: linear-gradient(-58deg, transparent 29px, #fe8e0b 0) top right;
+    width: 30%;
+    font-size: 16px;
+    padding: 14px 0px 0px 43px;
+    height: 55px;
+  }
+  #Spotlight section.right div.button a.button.right {
+    background: linear-gradient(123deg, transparent 28px, #3a2929 0) top left;
+    width: 30%;
+    font-size: 16px;
+    padding: 15px 0px 0px 52px;
+    height: 55px;
+  }
+  section#brands ul li:last-child {
+    margin-right: 50px;
+  }
+  section#about div.left_container h2 {
+    font-size: 70px;
+  }
+  section#about section.background {
+    height: 80vh;
+    background-size: 446px;
+  }
+  section#about div.left_container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    width: 92%;
+  }
+
+  section#about div.left_container a.button {
+    background: linear-gradient(-64deg, transparent 27px, #3a2929 0) top right;
+    width: 28%;
+    font-size: 19px;
+    padding: 22px 0px 20px 49px;
+    height: 66px;
+    margin-top: 19px;
+  }
+  section#Content section.wrapper section.item.one section.left {
+    width: 44%;
+  }
+  section#Content section.wrapper section.item.one section.right div.img_dot {
+    bottom: 459px;
+  }
+  section#Content section.wrapper section.item.one section.right {
+    width: 54%;
+  }
+  section#Content section.wrapper section.item.one section.right h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  section#Content section.wrapper section.item.one section.right p {
+    font-size: 16px;
+    margin-bottom: 14px;
+  }
+  section#Content section.wrapper section.item.one section.right a.button {
+    background: linear-gradient(-59deg, transparent 33px, #3a2929 0) top right;
+    width: 30%;
+    font-size: 17px;
+    padding: 17px 0px 20px 50px;
+    height: 58px;
+    border-radius: 10px;
+    margin-top: 25px;
+  }
+  #Content section.wrapper section.item.two section.left h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+  }
+  #Content section.wrapper section.item.two section.left p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  section#Content section.wrapper section.item.two section.left {
+    width: 54%;
+  }
+  section#Content section.wrapper section.item.two section.right {
+    width: 44%;
+  }
+  #Content section.wrapper section.item.two section.left a.button {
+    background: linear-gradient(-59deg, transparent 35px, #3a2929 0) top right;
+    width: 29%;
+    font-size: 17px;
+    padding: 18px 0px 0px 40px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 25px;
+  }
+  #Content section.wrapper section.item.two section.left div.img_dot {
+    bottom: 462px;
+  }
+  #Content section.item.three section.right {
+    width: 44%;
+  }
+  Content section.item.three section.left {
+    width: 50%;
+  }
+  #Content section.item.three section.right h1 {
+    font-size: 60px;
+  }
+  #Content section.item.three section.right form input[type="text"] {
+    width: 46%;
+    padding: 23px 20px;
+    font-size: 16px;
+  }
+  #Content section.item.three section.right div.img_dot {
+    bottom: 418px;
+  }
+  section#blog section.wrapper h1 {
+    font-size: 55px;
+    margin-bottom: 40px;
+  }
+  section#blog section.wrapper ul li h5 {
+    font-size: 22px;
+    margin-bottom: 18px;
+  }
+  section#blog section.wrapper ul li p {
+    font-size: 16px;
+  }
+  section#blog section.wrapper h1 {
+    font-size: 55px;
+    margin-bottom: 40px;
+  }
+}
+@media all and (max-width: 1380px) {
+  #Spotlight section.right h5 {
+    margin-bottom: 10px;
+  }
+  #Spotlight section.right p {
+    width: 97%;
+    margin-bottom: 42px;
+  }
+  #Spotlight section.right div.button a.button.left {
+    font-size: 15px;
+    padding: 17px 0px 0px 43px;
+  }
+  #Spotlight section.right div.button a.button.right {
+    background: linear-gradient(120deg, transparent 28px, #3a2929 0) top left;
+    font-size: 15px;
+  }
+  section#brands {
+    padding: 45px 0px;
+  }
+  section#brands ul li:first-child {
+    margin-left: 165px;
+  }
+  section#brands ul li {
+    width: 160px;
+  }
+  section#about div.left_container p {
+    font-size: 17px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  section#about div.left_container a.button {
+    width: 26%;
+    font-size: 17px;
+    padding: 21px 0px 0px 38px;
+    height: 59px;
+    margin-top: 8px;
+  }
+  #content section.item.one {
+    padding-bottom: 40px;
+  }
+  #content section.item.two {
+    padding-bottom: 40px;
+  }
+  #content section.item.three {
+    padding-bottom: 40px;
+  }
+  section#content section.wrapper section.item.one section.left {
+    position: relative;
+    width: 48%;
+  }
+  section#content section.wrapper section.item.one section.right {
+    position: relative;
+    width: 50%;
+  }
+  section#content section.wrapper section.item.one section.right h1 {
+    font-size: 45px;
+    margin-bottom: 25px;
+  }
+  section#content section.wrapper section.item.one section.right p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  section#content section.wrapper section.item.one section.right a.button {
+    width: 29%;
+    font-size: 16px;
+    padding: 15px 0px 20px 31px;
+    height: 54px;
+    border-radius: 10px;
+    margin-top: 12px;
+  }
+  section#content section.wrapper section.item.one section.right div.img_dot {
+    bottom: 447px;
+  }
+  #content section.wrapper section.item.two section.left h1 {
+    font-size: 55px;
+    margin-bottom: 15px;
+  }
+  #content section.wrapper section.item.two section.left p {
+    font-size: 14px;
+    margin-bottom: 13px;
+  }
+  #content section.wrapper section.item.two section.right {
+    width: 53%;
+  }
+  #content section.wrapper section.item.two section.left a.button {
+    width: 29%;
+    font-size: 16px;
+    padding: 17px 0px 20px 22px;
+    height: 57px;
+    border-radius: 10px;
+    margin-top: 12px;
+  }
+  #content section.wrapper section.item.two section.left div.img_dot {
+    bottom: 455px;
+  }
+  #content section.item.three section.left {
+    width: 48%;
+  }
+  #content section.item.three section.right h1 {
+    font-size: 50px;
+    margin-bottom: 22px;
+  }
+  #content section.item.three section.right {
+    width: 44%;
+  }
+  #content section.item.three section.right div.img_dot {
+    bottom: 391px;
+  }
+  section#blog section.wrapper ul li div.img_blog {
+    height: 280px;
+  }
+  section#blog section.wrapper ul li p {
+    font-size: 14px;
+  }
+  section#blog section.wrapper ul li h5 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  section#blog section.wrapper h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+  }
+  footer section.content div.left div.social h4 a {
+    font-size: 25px;
+    margin-bottom: 8px;
+  }
+  footer section.content div.left div.social span {
+    font-size: 16px;
+    margin-bottom: 7px;
+  }
+  footer section.content div.left div.social small {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  footer section.content div.left div.social div.logocontainer ul li a span {
+    width: 34px;
+  }
+
+  footer section.content div.right div.blog ul li {
+    margin-bottom: 14px;
+  }
+  footer section.content div.right div.blog ul li h5 a {
+    font-size: 20px;
+  }
+  footer section.content div.right div.blog ul li a {
+    font-size: 14px;
+  }
+  footer section.content div.right div.about ul li {
+    margin-bottom: 14px;
+  }
+  footer section.content div.right div.about ul li h5 a {
+    font-size: 20px;
+  }
+  footer section.content div.right div.about ul li a {
+    font-size: 14px;
+  }
+  footer section.content div.right div.product ul li {
+    margin-bottom: 14px;
+  }
+  footer section.content div.right div.product ul li h5 a {
+    font-size: 20px;
+  }
+  footer section.content div.right div.product ul li a {
+    font-size: 14px;
+  }
+  footer section.content div.right div.product {
+    margin-right: 225px;
+  }
+  footer {
+    height: 50vh;
+    background-position: right 35px;
+  }
+}
