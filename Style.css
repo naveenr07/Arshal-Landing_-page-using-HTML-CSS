@@ -83,6 +83,7 @@ br.clear {
   font-display: swap;
 }
 header {
+  
 }
 
 header section.container {
@@ -169,6 +170,7 @@ header section.container nav.right ul li a span.cart img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 10px;
 }
 
 #Spotlight section.left {
@@ -468,10 +470,7 @@ section#content section.wrapper section.item.one section.right a.button {
   background: linear-gradient(-54deg, transparent 39px, #3a2929 0) top right;
   width: 31%;
   font-size: 19px;
-  color: #fff;
-  font-weight: 500;
   padding: 21px 0px 20px 54px;
-  display: inline-block;
   height: 70px;
   border-radius: 13px;
   margin-top: 40px;
@@ -585,7 +584,7 @@ section#blog section.wrapper ul li {
   margin-left: 50px;
   width: 32%;
 }
-section#blog section.wrapper ul li:first-child {
+section#blog section.wrapper ul li:nth-child(1) {
   margin-left: 0px;
 }
 section#blog section.wrapper ul li div.img_blog {
