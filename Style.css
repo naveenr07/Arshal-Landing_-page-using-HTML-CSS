@@ -466,11 +466,13 @@ section#content section.wrapper section.item.one section.right a.button {
   margin-bottom: 0;
 }
 #content section.wrapper section.item.two section.left a.button {
-  display: inline-block;
   background: linear-gradient(-54deg, transparent 39px, #3a2929 0) top right;
   width: 31%;
   font-size: 19px;
+  color: #fff;
+  font-weight: 500;
   padding: 21px 0px 20px 54px;
+  display: inline-block;
   height: 70px;
   border-radius: 13px;
   margin-top: 40px;

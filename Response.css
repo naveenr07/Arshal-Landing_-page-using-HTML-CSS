@@ -1287,8 +1287,8 @@
   header section.container {
     padding: 14px 0px;
   }
-  #Spotlight{
-    background: url(images/spotlight_image.png)no-repeat;
+  #Spotlight {
+    background: url(images/spotlight_image.png) no-repeat;
     background-position: left -14px;
     background-size: 118px;
   }
@@ -1461,4 +1461,55 @@
     background-position: right 23px;
     background-size: 173px;
   }
+}
+@media all and (max-width: 360px) {
+  #Spotlight {
+    background-position: left -28px;
+    background-size: 114px;
+  }
+  #Spotlight section.right p {
+    width: 74%;
+  }
+  #Spotlight section.right h1 {
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
+  #Spotlight section.right h5 {
+    margin-bottom: 8px;
+  }
+  section#brands ul li:first-child {
+    margin-left: 25px;
+  }
+  section#brands ul li:last-child {
+    margin-right: 0px;
+  }
+  section#about div.left_container a.button {
+    width: 29%;
+  }
+  section#content section.wrapper section.item.one section.right p {
+    width: 93%;
+    margin: 0 auto;
+  }
+  #content section.wrapper section.item.two section.left p {
+    width: 98%;
+  }
+  #content section.item.three section.right form {
+    display: none;
+  }
+  #content section.item.three section.right h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  #content section.item.three section.right {
+    width: 53%;
+  }
+  footer section.content div.right {
+    align-items: baseline;
+    width: 65%;
+  }
+  footer {
+    height: 27vh;
+    background-position: right 52px;
+    background-size: 146px;
+}
 }
