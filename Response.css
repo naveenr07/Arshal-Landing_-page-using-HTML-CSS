@@ -1104,7 +1104,7 @@
     height: 23px;
   }
   #Spotlight section.right div.button a.button.right {
-    ont-size: 9px;
+    font-size: 9px;
     padding: 5px 0px 0px 17px;
     width: 35%;
     height: 23px;
@@ -1284,6 +1284,11 @@
   }
 }
 @media all and (max-width: 480px) {
+  header section.container nav.right ul li a span.cart {
+    width: 25px;
+    border-radius: 4px;
+    padding: 5px;
+  }
   header section.container {
     padding: 14px 0px;
   }
@@ -1463,6 +1468,16 @@
   }
 }
 @media all and (max-width: 360px) {
+  header section.container nav.right ul li a span.search {
+    width: 22px;
+    border-radius: 4px;
+    padding: 2px;
+  }
+  header section.container nav.right ul li a span.cart {
+    width: 23px;
+    border-radius: 4px;
+    padding: 4px;
+  }
   #Spotlight {
     background-position: left -28px;
     background-size: 114px;
@@ -1511,5 +1526,5 @@
     height: 27vh;
     background-position: right 52px;
     background-size: 146px;
-}
+  }
 }
